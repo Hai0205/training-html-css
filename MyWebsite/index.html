@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapperr">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <section class="sidebar">
+              <div class="profile">
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt=""
+                  class="profile-avatar"
+                />
+                <h3 class="profile-name">Triệu Nguyễn Khánh Băng</h3>
+                <span class="profile-position">B1809328</span>
+                <span class="profile-position"
+                  >Sinh viên Công Nghệ Thông Tin</span
+                >
+              </div>
+              <ul class="menu">
+                <li class="menu-item">
+                  <a href="#" class="menu-link"
+                    ><i class="fa fa-home menu-icon"></i><span>Home</span></a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link"
+                    ><i class="fab fa-facebook menu-icon"></i
+                    ><span>Facebook</span></a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link"
+                    ><i class="fab fa-youtube menu-icon"></i
+                    ><span>Youtube</span></a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link"
+                    ><i class="fab fa-twitter menu-icon"></i
+                    ><span>Twitter</span></a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link"
+                    ><i class="fab fa-google menu-icon"></i
+                    ><span>Google</span></a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a
+                    href="https://git2.weebpal.com/htlm-training/html-haitn"
+                    class="menu-link"
+                    ><i class="fab fa-github menu-icon"></i><span>Git</span></a
+                  >
+                </li>
+              </ul>
+              <button class="btn btn--left">Follow me</button>
+            </section>
+          </div>
+          <div class="col-md-9">
+            <section class="main">
+              <div class="header">
+                <a href="#" class="logo">
+                  <img
+                    srcset="http://www.khanhbang.xyz/img/Logo.gif"
+                    class="logo-img"
+                /></a>
+                <ul class="menu">
+                  <li><a href="/">Giới thiệu</a></li>
+                  <li><a href="#">Văn hóa Việt Nam</a></li>
+                  <li><a href="/MP3/index.html">Nghe Nhạc</a></li>
+                  <li><a href="#">Kỷ niệm</a></li>
+                </ul>
+                <div class="toggle-menu">
+                  <span><i class="fas fa-bars"></i></span>
+                </div>
+                <nav class="menu-mobile">
+                  <div class="overplay-menu-mobile"></div>
+                  <div class="navigation-menu">
+                    <div class="menu-mobile-top">
+                      <h3 class="title-menu-mobile">Menu</h3>
+                      <button
+                        id="btn-close-menu"
+                        class="float-right"
+                        title="btn-close-menu"
+                      >
+                        <i class="fas fa-times"></i>
+                      </button>
+                    </div>
+                    <ul class="menu-mobile-body">
+                      <li class="menu-mobile-item">
+                        <a href="/" class="menu-mobile-item-link">
+                          <span>Giới thiệu</span>
+                        </a>
+                      </li>
+                      <li class="menu-mobile-item">
+                        <a href="#" class="menu-mobile-item-link">
+                          <span>Văn Hóa Việt Nam</span>
+                        </a>
+                      </li>
+                      <li class="menu-mobile-item">
+                        <a href="#" class="menu-mobile-item-link">
+                          <span>Kỷ niệm</span>
+                        </a>
+                      </li>
+                      <li class="menu-mobile-item">
+                        <a href="#" class="menu-mobile-item-link">
+                          <span>Chúc mừng năm mới</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="img-slider">
+                <div class="img-item">
+                  <img
+                    src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    alt=""
+                    class="img"
+                  />
+                </div>
+                <div class="img-item">
+                  <img
+                    src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    alt=""
+                    class="img"
+                  />
+                </div>
+                <div class="img-item">
+                  <img
+                    src="https://images.unsplash.com/photo-1487014679447-9f8336841d58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1305&q=80"
+                    alt=""
+                    class="img"
+                  />
+                </div>
+              </div>
+
+              <div class="information">
+                <h2 class="information-title">
+                  Chào mừng bạn đến với Website của tôi !
+                </h2>
+                <p class="information-desc">
+                  Xin tự giới thiệu tôi tên là
+                  <b class="information-desc-name">Triệu Nguyễn Khánh Băng</b>
+                  hiện đang là sinh viên ngành Công Nghệ Thông Tin khóa 44 của
+                  trường Đại học Cần Thơ. Chuyên nghành của tôi là Tin học ứng
+                  dụng. Website này tôi lập ra chủ yếu là để traning kỹ năng của
+                  bản thân về mảng lập trình web với css, html, javascript,....
+                  Vì là trang web dùng để test kỹ năng nên là có nhiều phần cực
+                  kỳ màu mè dẫn đến rối mắt. Nên là có bạn nào ghé thăm và cảm
+                  thấy thích thú thì có thể tự nhiên lấy về nhưng tôi không
+                  khuyến khích ứng dụng vào dự án vì nó quá màu mè, không phù
+                  hợp với người sử dụng.
+                </p>
+                <h3 class="information-list">Danh sách các sản phẩm :</h3>
+                <ul class="timeline">
+                  <li class="timeline-item">
+                    <h3 class="timeline-item-heading">Văn hóa Việt Nam</h3>
+                    <p class="timeline-des">
+                      là website chứa thông tin về đặc trưng văn hóa các vùng
+                      miền của Việt Nam mà tôi sưu tầm được từ internet và tổng
+                      hợp lại
+                      <a href="#">Click tại đây!</a>
+                    </p>
+                  </li>
+                  <li class="timeline-item">
+                    <h3 class="timeline-item-heading">Analyser và Simple</h3>
+                    <p class="timeline-des">
+                      Là phần nghe nhạc với 2 cách thiết kế khác nhau mà tôi học
+                      được từ các anh chị đi trước đã hướng dẫn
+                      <a href="#">Click tại đây!</a>
+                    </p>
+                  </li>
+                  <li class="timeline-item">
+                    <h3 class="timeline-item-heading">Kỷ niệm</h3>
+
+                    <p class="timeline-des">
+                      là trang đếm ngày quen nhau, yêu nhau,.... dành cho những
+                      bạn đã có người yêu ghi nhớ kỷ niệm của mình
+                      <a href="#">Click tại đây!</a>
+                    </p>
+                  </li>
+                  <li class="timeline-item">
+                    <h3 class="timeline-item-heading">Chúc mừng năm mới</h3>
+                    <p class="timeline-des">
+                      là trang web chứa hiệu ứng, hoạt ảnh,... với mục đích tạo
+                      không khí tưng bừng ngày tết.
+                      <a href="#">Click tại đây!</a>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <section class="subscribe">
+        <div class="container">
+          <div class="subscribe-container">
+            <div class="subscribe-content">
+              <h2 class="heading">Chia sẻ cho thầy đi!</h2>
+              <p class="text">Let's subscribe with us and find the fun.</p>
+            </div>
+            <a
+              href="#"
+              class="button button--primary button--rounded button--shadow"
+              >Subscribe Now</a
+            >
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-container">
+            <div class="footer-column">
+              <a href="#" class="footer-logo">
+                <img
+                  srcset="http://www.khanhbang.xyz/img/Logo.gif"
+                  class="footer-logo-img"
+                />
+              </a>
+              <p class="footer-desc text">
+                <span class="text-medium">My Website</span> là sản phầm của bản
+                thân trong quá trình tự training
+              </p>
+              <div class="social">
+                <a href="#" class="social-item">
+                  <img srcset="./images/Facebook.png 2x" alt="" />
+                </a>
+                <a href="#" class="social-item">
+                  <img srcset="./images/Twitter.png 2x" alt="" />
+                </a>
+                <a href="#" class="social-item">
+                  <img srcset="./images/Instagram.png 2x" alt="" />
+                </a>
+              </div>
+              <p class="copyright">
+                ©2022<span class="text-medium"> My Website</span>
+              </p>
+            </div>
+            <div class="footer-column">
+              <h3 class="footer-heading heading-small">Contact Us</h3>
+              <ul class="footer-links">
+                <li class="footer-item">
+                  <a href="#" class="footer-link"
+                    ><i class="far fa-user"></i> Triệu Nguyễn Khánh Băng</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a
+                    href="mailto:bangb1809328@student.ctu.edu.vn"
+                    class="footer-link"
+                    ><i class="far fa-envelope"></i>
+                    bangb1809328@student.ctu.edu.vn</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">
+                    <i class="fas fa-map-marker-alt"></i> Đường B21, Khu dân cư
+                    91B, An Khánh, Ninh Kiều, Cần Thơ</a
+                  >
+                </li>
+
+                <li class="footer-item">
+                  <a href="#" class="footer-link"
+                    ><i class="fas fa-mobile-alt"></i> 09090909090</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <a href="#" class="cd-top">Back To Top</a>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
